@@ -1,24 +1,24 @@
 
 # Site settings
 
-url: "https://panossakkos.github.io"
+url: "https://marcuseisele.com"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /personal-jekyll-theme
+# baseurl: /personal-jekyll-theme
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-16887959-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: False
 
 syntax-highlight: True
 
@@ -45,26 +45,26 @@ icon-192p: "/img/web-app/icon-192p.png"
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Marcus Eisele"
 lang: "en"
-title: "{ John Smith }"
+title: "Marcus Eisele - Developer"
 favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog and website of Marcus Eisele."
+keywords: "Eisele, Marcus, Entwickler, Developer, Applications, Web"
 
 ################
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+black-favicon: "/img/favicon.ico"
+background-img: "https://raw.githubusercontent.com/eiselems/eiselems.github.io/9ef5686dd747efebd7284f5c4317c43b80896aec/assets/background.jpg"
+me-img: "https://cloud.githubusercontent.com/assets/5188694/11317854/92136234-903d-11e5-9ab5-20a3d59c72b4.jpg"
 
 ##############################
 # Dynamic Text on the header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
@@ -72,8 +72,8 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "My personal and professional website."
+#  - text: "Where’s your will to be weird?"
 
 ########
 # Blog #
@@ -85,24 +85,33 @@ paginate: 5
 
 fb-share: True
 twitter-share: True
-reddit-share: True
+reddit-share: False
 google-plus-share: True
-linkedin-share: True
-pinterest-share: True
-vkontakte-share: True
-disqus-shortname: "panossakkos"
+linkedin-share: False
+pinterest-share: False
+vkontakte-share: False
+disqus-shortname: "marcuseisele"
 
 ###############
 # Life Events #
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/daimler.jpg"
+    date: "2014 - today"
+    description: "Working Student: (Mostly Web-) Application Developer"
+  - image: "/img/career/uniStuttgart.jpg"
+    date: "2013 - today"
+    description: "M. Sc. Software Engineering"
+  - image: "/img/career/uniStuttgart.jpg"
+    date: "2010 - 2013"
+    description: "B. Sc. Software Engineering"
+  - image: "/img/career/aeb_250.jpg"
+    date: "October 2007 - September 2009"
+    description: "JavaEE Application Developer"
+  - image: "/img/career/adv.jpg"
+    date: "October 2006 - September 2009"
+    description: "ADV Böblingen: <br>Apprenticeship 'staatl. geprüfter Informatiker'"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
@@ -111,21 +120,22 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "marcus.eisele@gmail.com"
 
 ##################
 # Social Buttons #
 ##################
 
+
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://www.facebook.com/marcus.eisele"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/eiselems"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/eiselems"
+  - title: "xing"
+    url: "https://www.xing.com/profile/Marcus_Eisele6"
   - title: "rss"
     url: "/feed.xml"
 
