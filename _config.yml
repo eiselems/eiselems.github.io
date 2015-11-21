@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://marcuseisele.com"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,27 +12,28 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+# baseurl: /personal-jekyll-theme
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-16887959-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: False
 
 #############
 # HTML Head #
 #############
 
+author: "Marcus Eisele"
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+title: "Marcus Eisele - Developer"
+
+description: "Blog and website of Marcus Eisele."
+keywords: "Eisele, Marcus, Entwickler, Developer, Applications, Web"
 favicon: "/img/favicon.ico"
 404-img: "/img/labtocat.png"
 
@@ -40,24 +41,24 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-
-background-img: "../img/intro-bg.jpg"
+black-favicon: "/img/favicon.ico"
+background-img: "https://raw.githubusercontent.com/eiselems/eiselems.github.io/9ef5686dd747efebd7284f5c4317c43b80896aec/assets/background.jpg"
+me-img: "https://cloud.githubusercontent.com/assets/5188694/11317854/92136234-903d-11e5-9ab5-20a3d59c72b4.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
+dynamic-typing: False
+shuffle: True	# Shuffle the lines.
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "My personal and professional website."
+#  - text: "Where’s your will to be weird?"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -87,15 +88,16 @@ paginate: 5
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: True
-reddit-share: True
+linkedin-share: False
+reddit-share: False
 google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "marcuseisele"
+
 
 syntax-highlight: True
 
@@ -104,12 +106,21 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/daimler.jpg"
+    date: "2014 - today"
+    description: "Working Student: (Mostly Web-) Application Developer"
+  - image: "/img/career/uniStuttgart.jpg"
+    date: "2013 - today"
+    description: "M. Sc. Software Engineering"
+  - image: "/img/career/uniStuttgart.jpg"
+    date: "2010 - 2013"
+    description: "B. Sc. Software Engineering"
+  - image: "/img/career/aeb_250.jpg"
+    date: "October 2007 - September 2009"
+    description: "JavaEE Application Developer"
+  - image: "/img/career/adv.jpg"
+    date: "October 2006 - September 2009"
+    description: "ADV Böblingen: <br>Apprenticeship 'staatl. geprüfter Informatiker'"
 
 # First image of the Timeline
 
@@ -119,21 +130,22 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "marcus.eisele@gmail.com"
 
 ##################
 # Social Buttons #
 ##################
 
+
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://www.facebook.com/marcus.eisele"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/eiselems"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/eiselems"
+  - title: "xing"
+    url: "https://www.xing.com/profile/Marcus_Eisele6"
   - title: "rss"
     url: "/feed.xml"
 
