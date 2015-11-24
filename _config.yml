@@ -43,7 +43,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/favicon.ico"
 background-img: "https://raw.githubusercontent.com/eiselems/eiselems.github.io/9ef5686dd747efebd7284f5c4317c43b80896aec/assets/background.jpg"
-me-img: "https://cloud.githubusercontent.com/assets/5188694/11317854/92136234-903d-11e5-9ab5-20a3d59c72b4.jpg"
+
 
 ##############################
 # Dynamic Text on the Header #
@@ -60,7 +60,7 @@ lines:			# You can add HTML Tags in the Text
   - text: "My personal and professional website."
 #  - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "https://cloud.githubusercontent.com/assets/5188694/11317854/92136234-903d-11e5-9ab5-20a3d59c72b4.jpg"
 
 ################
 # Web app mode #
