@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: Hello World!
-category: tech
+category: general
 tags: [ 'tutorial' ]
 ---
 
