@@ -233,18 +233,6 @@ function addTohistory() {
 
   <!-- Swipe Instructions for Blog Start -->
 
-  <script>
-    $(document).ready(function(){
-      if(!localStorage.getItem('blog-swipeshowed')){
-        $("#swipe-instruction").fadeIn();
-        $("#swipe-instruction .close-swipe-instruction").click(function(){
-          $("#swipe-instruction").fadeOut();
-        });
-        localStorage.setItem('blog-swipeshowed', true);
-      }
-    });
-  </script>
-
   <!-- Swipe Instructions for Blog End -->
 
 {% endif %}
@@ -252,19 +240,6 @@ function addTohistory() {
 {% if page.section-type == "post" %}
 
   <!-- Swipe Instructions for Post Start -->
-
-  <script>
-    $(document).ready(function(){
-      if(!localStorage.getItem('post-swipeshowed')){
-        $("#swipe-instruction").fadeIn();
-        $("#swipe-instruction .close-swipe-instruction").click(function(){
-          $("#swipe-instruction").fadeOut();
-        });
-        localStorage.setItem('post-swipeshowed', true);
-      }
-    });
-  </script>
-
   <!-- Swipe Instructions for Post End -->
 
 {% endif %}

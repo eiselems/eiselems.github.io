@@ -29,10 +29,10 @@ force-https: True
 #############
 
 author: "Marcus Eisele"
-lang: "en"
-title: "Marcus Eisele - Developer"
+lang: "de"
+title: "Marcus Eisele - Softwareentwickler"
 
-description: "Blog and website of Marcus Eisele."
+description: "Blog and Website of Marcus Eisele."
 keywords: "Eisele, Marcus, Entwickler, Developer, Applications, Web"
 favicon: "/img/favicon.ico"
 404-img: "/img/labtocat.png"
@@ -57,7 +57,7 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "My personal and professional website."
+  - text: "Meine persönliche und professionelle Webseite."
 #  - text: "Where’s your will to be weird?"
 
 me-img: "https://cloud.githubusercontent.com/assets/5188694/11317854/92136234-903d-11e5-9ab5-20a3d59c72b4.jpg"
@@ -108,10 +108,10 @@ syntax-highlight: True
 events:
   - image: "/img/career/tss.jpg"
     date: "2016 - heute"
-    description: "Working Student: Java Developer"
+    description: "Werkstudent: Java Developer"
   - image: "/img/career/daimler.jpg"
     date: "2014 - 2016"
-    description: "Working Student: (Web) Application Developer"
+    description: "Werkstudent: Web-Anwendungsentwickler"
   - image: "/img/career/uniStuttgart.jpg"
     date: "2013 - heute"
     description: "M. Sc. Software Engineering"
@@ -120,7 +120,7 @@ events:
     description: "B. Sc. Software Engineering"
   - image: "/img/career/aeb_250.jpg"
     date: "October 2007 - September 2009"
-    description: "JavaEE Application Developer"
+    description: "JavaEE Anwendungsentwickler"
   - image: "/img/career/adv.jpg"
     date: "October 2006 - September 2009"
     description: "ADV Böblingen: <br>Ausbildung 'staatl. geprüfter Informatiker'"
@@ -165,10 +165,10 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  Über mich: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  Chronik: 'timeline'
+  Kontakt: 'contact'
 
 # Exclusion list from the generated _site
 
