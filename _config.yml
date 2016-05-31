@@ -106,11 +106,14 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/career/tss.jpg"
+    date: "2016 - heute"
+    description: "Working Student: Java Developer"
   - image: "/img/career/daimler.jpg"
-    date: "2014 - today"
+    date: "2014 - 2016"
     description: "Working Student: (Web) Application Developer"
   - image: "/img/career/uniStuttgart.jpg"
-    date: "2013 - today"
+    date: "2013 - heute"
     description: "M. Sc. Software Engineering"
   - image: "/img/career/uniStuttgart.jpg"
     date: "2010 - 2013"
@@ -120,7 +123,7 @@ events:
     description: "JavaEE Application Developer"
   - image: "/img/career/adv.jpg"
     date: "October 2006 - September 2009"
-    description: "ADV Böblingen: <br>Apprenticeship 'staatl. geprüfter Informatiker'"
+    description: "ADV Böblingen: <br>Ausbildung 'staatl. geprüfter Informatiker'"
 
 # First image of the Timeline
 
