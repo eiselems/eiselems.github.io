@@ -108,7 +108,7 @@ syntax-highlight: True
 events:
   - image: "/img/career/tss.jpg"
     date: "2016 - heute"
-    description: "Werkstudent: Java Developer"
+    description: "Werkstudent: Java Entwickler"
   - image: "/img/career/daimler.jpg"
     date: "2014 - 2016"
     description: "Werkstudent: Web-Anwendungsentwickler"
