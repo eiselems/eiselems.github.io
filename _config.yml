@@ -108,10 +108,10 @@ syntax-highlight: True
 events:
   - image: "/img/career/tss.jpg"
     date: "2016 - heute"
-    description: "Werkstudent: Java Entwickler"
+    description: "Werkstudent:<br>Java Entwickler<br>Mercedes Me<br>Parking Services"
   - image: "/img/career/daimler.jpg"
     date: "2014 - 2016"
-    description: "Werkstudent: Web-Anwendungsentwickler"
+    description: "Werkstudent: <br>Web-Anwendungsentwickler<br>Design/Systeme"
   - image: "/img/career/uniStuttgart.jpg"
     date: "2013 - heute"
     description: "M. Sc. Software Engineering"
@@ -123,7 +123,7 @@ events:
     description: "JavaEE Anwendungsentwickler"
   - image: "/img/career/adv.jpg"
     date: "October 2006 - September 2009"
-    description: "ADV Böblingen: <br>Ausbildung 'staatl. geprüfter Informatiker'"
+    description: "ADV Böblingen: <br>Ausbildung<br>staatl. geprüfter Informatiker"
 
 # First image of the Timeline
 
